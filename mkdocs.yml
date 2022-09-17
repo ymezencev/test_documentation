@@ -1,0 +1,62 @@
+site_name: SQLAlchemy Filterset
+site_description: Короткое описание либы
+
+theme:
+  name: 'material'
+  palette:
+    - scheme: default
+      primary: 'deep purple'
+      accent: 'deep purple'
+      toggle:
+          icon: material/weather-sunny
+          name: Switch to dark mode
+    - scheme: slate
+      primary: 'deep purple'
+      accent: 'deep purple'
+      toggle:
+          icon: material/weather-night
+          name: Switch to light mode
+  icon:
+    logo: material/filter
+  favicon: 'favicon.png'
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+
+repo_name: ymezencev/test_documentation
+repo_url: https://github.com/ymezencev/test_documentation
+edit_uri: ""
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - tables
+  - def_list
+
+plugins:
+  - search
+
+nav:
+  - About: index.md
+  - Configuration:
+      - configuration/overview.md
+  - Usage:
+      - usage/flow.md
