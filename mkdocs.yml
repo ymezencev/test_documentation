@@ -1,5 +1,5 @@
 site_name: SQLAlchemy Filterset
-site_description: Короткое описание либы
+site_description: An easy way to filter SQLAlchemy queries
 
 theme:
   name: 'material'
@@ -56,7 +56,12 @@ plugins:
 
 nav:
   - About: index.md
-  - Configuration:
-      - configuration/overview.md
+  - Installation: installation.md
+  - Development: development.md
   - Usage:
-      - usage/flow.md
+    - usage/flow.md
+    - usage/filterset.md
+    - usage/filters.md
+    - usage/custom_filters.md
+  - Examples:
+    - FastAPI: examples/fastapi.md
