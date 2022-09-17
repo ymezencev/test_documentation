@@ -4,6 +4,8 @@
     <em>Короткое описание либы</em>
 </p>
 
+[![pages-build-deployment](https://github.com/ymezencev/test_documentation/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/ymezencev/test_documentation/actions/workflows/pages/pages-build-deployment)
+
 ---
 
 **Source Code**: <a href="https://github.com/ymezencev/test_documentation" target="_blank">https://github.com/ymezencev/test_documentation</a>
